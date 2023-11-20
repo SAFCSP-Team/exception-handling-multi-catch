@@ -21,26 +21,22 @@ we have to handle two different exceptions but take the same action for both.
 
 **Implementation**
 
-
-
-
-
+ we have two issues numbers divideByZero and index out of bounds you must handle it by using multi catch.
 
 ```Java
 
 public class Main {
+
     public static void main(String[] args) {
-        StudentManagementSystem sms = new StudentManagementSystem();
-        /* Adding students */
-        Student student1 = new Student("Khaled", 1, 20, 85.5);
-        sms.addStudent(student1);
 
-        Student student2 = new Student("Rema", 2, 21, 92.3);
-        sms.addStudent(student2);
+        int [] array = {10, 20, 30};
 
-        Student student3 = new Student("Noura", 3, 19, 78.9);
-        sms.addStudent(student3);
-         }
+        int b = 0;
+     
+            System.out.println("1");
+            int c = (array[2] / b);
+            System.out.println("2");
+             }
 }
 ```
 
