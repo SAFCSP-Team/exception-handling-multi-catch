@@ -3,25 +3,27 @@
 
 **Objective**
 
-In this project we will learn, A multi-catch block to provide a more concise and streamlined approach for handling multiple exceptions in a single catch block.
+In this project we will learn, You can catch more than one type of exception with one exception handler, with the `multi-catch` pattern.
 
 
 **Concepts**
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-||  |
-|     |      |
+|Multi-Catching Exceptions|   [Multi-Catching Exceptions](https://dev.java/learn/exceptions/catching-handling/#multi-catching)|
+|The Finally Block | [The Finally Block](https://dev.java/learn/exceptions/catching-handling/#finally)  |
+|Tutorial|[Try catch & Finally](https://www.youtube.com/watch?v=1XAfapkBQjk)|
 
 
 **Problem**
 
-we have to handle two different exceptions but take the same action for both.
+We have catch two types of exceptions to handle the code.
 
+Enhance the code issues using exception handling.
 
 **Implementation**
 
- we have two issues numbers divideByZero and index out of bounds you must handle it by using multi catch.
+ We have two issues, numbers divide by zero and index out of bounds you must handle it by using multi catch.
 
 ```Java
 
@@ -37,6 +39,12 @@ public class Main {
             int c = (array[2] / b);
             System.out.println("2");
              }
+
+
+
+   finally {
+            System.out.println("finally");
+        }
 }
 ```
 
