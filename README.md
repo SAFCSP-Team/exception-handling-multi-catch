@@ -10,22 +10,20 @@ In this project we will learn, A multi-catch block to provide a more concise and
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Concept of a package |  [Concept of a package ](https://github.com/nourabyte/high-level-language/blob/main/resources/what-is-a-package.md) |
-|Tutorial about Package      |    [What is a package](https://www.youtube.com/watch?v=Bua6LQO2vQ8)  |
+||  |
+|     |      |
 
 
 **Problem**
 
-Create your own structure to organize the project using `package` concept.
+we have to handle two different exceptions but take the same action for both.
 
 
 **Implementation**
 
-1. Create a package to organize your classes.
-2. Create `Student` class within the package, with attributes name, id number, age, and grade.
-3. Create "StudentManagementSystem" class, which serves as the main entry point for the system.
-4. Implement methods to add and remove a student.
-6. Implement a method to calculate the average grade of all the students in the system.
+
+
+
 
 
 ```Java
