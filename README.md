@@ -24,6 +24,7 @@ Enhance the code issues using exception handling.
 **Implementation**
 
  We have two issues, numbers divide by zero and index out of bounds you must handle it by using multi catch.
+ 
 
 ```Java
 
@@ -33,18 +34,18 @@ public class Main {
 
         int [] array = {10, 20, 30};
 
-        int b = 0;
+        int zero = 0;
      
-            System.out.println("1");
-            int c = (array[2] / b);
-            System.out.println("2");
+            System.out.println("before divide");
+            int result = (array[2] / zero);
+            System.out.println("after divide");
              }
-
-
-
-   finally {
-            System.out.println("finally");
-        }
 }
 ```
+> Add the following code to the previous code after completed.
 
+```java
+ finally {
+            System.out.println("finally");
+        }
+```
