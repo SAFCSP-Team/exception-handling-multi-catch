@@ -10,9 +10,9 @@ In this project we will learn, You can catch more than one type of exception wit
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Multi-Catching Exceptions|   [Multi-Catching Exceptions](https://dev.java/learn/exceptions/catching-handling/#multi-catching)|
-|The Finally Block | [The Finally Block](https://dev.java/learn/exceptions/catching-handling/#finally)  |
-|Tutorial|[Try catch & Finally](https://www.youtube.com/watch?v=1XAfapkBQjk)|
+|Multi-Catching Exceptions|   [Multi-Catching Exceptions Concept](https://dev.java/learn/exceptions/catching-handling/#multi-catching)|
+|The Finally Block | [The Finally Block Concept](https://dev.java/learn/exceptions/catching-handling/#finally)  |
+|Try catch & Finally |[ Try catch & Finally (Tutorial)](https://www.youtube.com/watch?v=1XAfapkBQjk)|
 
 
 **Problem**
@@ -26,8 +26,7 @@ Enhance the code issues using exception handling.
  We have two issues, numbers divide by zero and index out of bounds you must handle it by using multi catch.
  
 
-```Java
-
+```java
 public class Main {
 
     public static void main(String[] args) {
@@ -42,7 +41,8 @@ public class Main {
              }
 }
 ```
-> Add the following code to the previous code after completed.
+> Add the following code to the previous code after completed, and see what different is.
+
 
 ```java
  finally {
