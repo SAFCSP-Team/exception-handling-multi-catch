@@ -3,7 +3,7 @@
 
 **Objective**
 
-In this project we will learn, You can catch more than one type of exception with one exception handler, with the `multi-catch` pattern.
+In this project we will learn, how you can catch more than one type of exception with one exception handler, with the `multi-catch` concept.
 
 
 **Concepts**
@@ -11,19 +11,17 @@ In this project we will learn, You can catch more than one type of exception wit
 | Concept   |      Resources      |
 |----------|:-------------:|
 |Multi-Catching Exceptions|   [Multi-Catching Exceptions Concept](https://dev.java/learn/exceptions/catching-handling/#multi-catching)|
-|The Finally Block | [The Finally Block Concept](https://dev.java/learn/exceptions/catching-handling/#finally)  |
-|Try catch & Finally |[ Try catch & Finally (Tutorial)](https://www.youtube.com/watch?v=1XAfapkBQjk)|
+|The Finally Block | [Finally Block Concept](https://dev.java/learn/exceptions/catching-handling/#finally)  |
+|Multi catch & Finally |[ Mult catch & Finally (Tutorial)](https://www.youtube.com/watch?v=X5urP793On8)|
 
 
 **Problem**
-
-We have catch two types of exceptions to handle the code.
 
 Enhance the code issues using exception handling.
 
 **Implementation**
 
- We have two issues, numbers divide by zero and index out of bounds you must handle it by using multi catch.
+ We have two issues, numbers divide by zero and index out of bounds you must handle it.
  
 
 ```java
