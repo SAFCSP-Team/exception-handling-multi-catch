@@ -3,7 +3,7 @@
 
 **Objective**
 
-In this project we will learn, how you can catch more than one type of exception with one exception handler, with the `multi-catch` concept.
+In this project, we will learn how you can catch more than one type of exception with one exception handler, with the `multi-catch` concept.
 
 
 **Concepts**
@@ -21,7 +21,7 @@ resolve the code errors using exception handling.
 
 **Implementation**
 
- We have two errors, numbers divide by zero and index out of bounds you must handle it.
+ We have two errors, numbers divided by zero and index out of bounds you must handle it.
  
 
 ```java
@@ -40,7 +40,7 @@ public class Main {
              }
 }
 ```
-> Add the following code to the previous code after completed, and see what different is.
+> Add the Finally block to the previous code after completed, and see what difference is.
 
 
 ```java
