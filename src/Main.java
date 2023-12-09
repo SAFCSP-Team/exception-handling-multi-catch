@@ -7,7 +7,15 @@ public class Main {
         int zero = 0;
      
             System.out.println("before divide");
-            int result = (array[2] / zero);
+            try {
+                int result = (array[2] / zero);
+            } catch (ZeroDivisionException e) {
+                System.out.println("Zero division error: " + e.getMessage());
+            } finally {
+            System.out.println("finally");
+            }
+            
             System.out.println("after divide");
              }
 }
+
