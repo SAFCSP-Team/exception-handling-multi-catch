@@ -35,7 +35,7 @@ public class Main {
         int zero = 0;
      
             System.out.println("before divide");
-            int result = (array[2] / zero);
+            int result = (array[4] / zero);
             System.out.println("after divide");
              }
 }
