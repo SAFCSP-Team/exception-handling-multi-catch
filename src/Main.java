@@ -14,5 +14,5 @@ public class Main {
                 "Divided by zero operation cannot possible");
         }catch (ArrayIndexOutOfBoundsException e) {
             System.println("index out of range");
-             }
+        }
 }}
