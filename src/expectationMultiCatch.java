@@ -1,4 +1,4 @@
-public class Main {
+public class expectationMultiCatch {
 
     public static void main(String[] args) {
 
@@ -10,9 +10,8 @@ public class Main {
             int result = (array[4] / zero);
             System.out.println("after divide");
              }catch(ArithmeticException e){
-                System.out.println(
-                "Divided by zero operation cannot possible");
+                System.out.println("Divided by zero operation cannot possible");
         }catch (ArrayIndexOutOfBoundsException e) {
-            System.println("index out of range");
+            System.out.println("index out of range");
         }
 }}
