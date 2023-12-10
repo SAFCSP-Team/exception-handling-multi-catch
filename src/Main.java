@@ -9,8 +9,8 @@ public class Main {
             System.out.println("before divide");
             try {
                 int result = (array[2] / zero);
-            } catch (ZeroDivisionException e) {
-                System.out.println("Zero division error: " + e.getMessage());
+            } catch (ArithmeticException e) {
+                System.out.println(e.getMessage());
             } finally {
             System.out.println("finally");
             }
